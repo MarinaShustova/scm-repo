@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<testCase version="7.3.3.0">
+    <execution>
+        <parameters version="7.3.3.0">
+            <parameters escape="true">
+                <parameters xmlns:pt="http://www.fnfr.com/schemas/parameterTree">
+                    <boolean1 pt:datatype="BOOLEAN" pt:description="bhnhh">true</boolean1>
+                </parameters>
+            </parameters>
+        </parameters>
+    </execution>
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="36186e25-c186-47eb-bf1a-5c3052acf085" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param demo ]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="533dad83-5587-441c-a876-88168fdfc9d0" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param boolean1]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="2e0f8b2a-4370-4866-9c66-546de44863da" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param boolean2]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="7a3bf7a0-aa81-4a20-89d8-60de5a0950d5" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param boolean3]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="56f3c184-3186-4d28-b919-f9e0cd9d7e32" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param integer1]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="4aef0d34-db3e-4d44-b99c-9793f220cdba" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param double1]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="2c7c36b0-4341-48ac-bfc3-29c4f59483fd" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param masked1]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="99a705a5-49f4-4f7f-bf1b-46731f2d2ef0" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param custom]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="f0e388f6-a47b-4d09-91ca-9bdca2a75deb" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param parent/child/child2/child3/child4/child5/child6/child7/child8]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+                <item guid="3098c884-edc4-4125-90dc-d57035e00f1e" action="eval" useFieldsInCommand="false">
+                    <command>
+                        <body>puts [param custom2]</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
